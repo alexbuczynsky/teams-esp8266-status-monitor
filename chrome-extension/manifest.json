@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Teams Status Monitor ESP8266",
+  "version": "1.0.0",
+  "permissions": ["alarms", "http://*/*", "https://*/*", "tabs", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
